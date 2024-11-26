@@ -31,6 +31,8 @@ body {
 .event-thumbnail {
     width: 100%;
     max-width: 400px;
+    max-height: 200px; /* Membatasi tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
     border-radius: 10px;
     margin-bottom: 15px;
 }
